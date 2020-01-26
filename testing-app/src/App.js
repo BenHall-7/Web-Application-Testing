@@ -57,6 +57,7 @@ function App() {
   return (
     <div className="App">
       <Dashboard
+        // could be more dry but doesn't need to
         addBall={() => {setScore(addBall(score))}}
         addFoul={() => {setScore(addFoul(score))}}
         addHit={() => {setScore(addHit(score))}}
