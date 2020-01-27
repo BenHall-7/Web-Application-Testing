@@ -9,6 +9,11 @@ button {
   height: 20px;
 }
 
+button:hover {
+  cursor: pointer;
+  background: salmon;
+}
+
 .App {
   display: flex;
   flex-direction: row;
