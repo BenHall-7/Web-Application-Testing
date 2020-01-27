@@ -1,6 +1,9 @@
-// import React from 'react';
-// import { render } from '@testing-library/react';
-import {addBall, addFoul, addHit, addStrike} from './App';
+import { render } from '@testing-library/react';
+import App, {addBall, addFoul, addHit, addStrike} from './App';
+
+test('renders without crashing', () => {
+  render(App);
+})
 
 test('state functions work', () => {
   expect(addBall({ball: 0, strike: 1})).toEqual({ball: 1, strike: 1});
