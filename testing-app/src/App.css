@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: lightsalmon;
+  border: none;
+  height: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: salmon;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 80%;
+  margin: auto;
+  padding: 5px;
+  min-width: 500px;
+  background: beige;
+  box-shadow: 2px 2px 0 burlywood;
+}
+
+#dashboard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 10px;
+  border-right: black dashed 1px;
+  margin-right: 10px;
+}
+
+#dashboard button {
+  width: 100px;
+  margin: 5px;
+}
